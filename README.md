@@ -1,5 +1,29 @@
-This is a web application that connects alumni of an institution. Members are able to login or register into the applicaion.
-The aplication has an admin dashboard(django admin dashboard).
-The app has features for posts/news, activities and members.
-Members can view their details, they can update their profiles, and view other members' profiles.
-To run this app locally, clone this repository and then install requirements using command pip install -r requirements.txt
+# Alumni connect
+![logo width ='150' height='150'](https://github.com/user-attachments/assets/4ec574be-35f1-4f6b-b572-6c9f10f0ae67 )
+
+# Alumni Web App
+
+This is a simple Django web app for **Alumni** of a certain institution to connect.
+
+## Features
+
+	•	User registration with bio and profile picture
+	•	Secure login/logout
+	•	Members page displaying all registered users
+
+## Setup
+
+git clone this repo Link<br> 
+cd alumni-app  <br>
+python -m venv myenv <br>
+&& source mvenv/bin/activate  <br>
+pip install -r requirements.txt <br> 
+python manage.py migrate  <br>
+python manage.py runserver <br> 
+
+Access the app at http://127.0.0.1:8000/.<br>
+
+## Contributing
+
+Fork, improve and submit a PR!<br>
+
